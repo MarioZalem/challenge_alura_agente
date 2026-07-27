@@ -169,7 +169,9 @@ Cuando la información **no** está en el documento, el agente lo indica con hon
 
 La aplicación fue desplegada en **Streamlit Community Cloud**, que ofrece un enlace público gratuito con despliegue automático desde GitHub.
 
-- **Enlace público de la aplicación:** _(pendiente de agregar tras el deploy)_
+- **Enlace público de la aplicación:** <https://challengealuraagente-yjj94jyzwggbhczgeage4w.streamlit.app/>
+
+> **Nota sobre la versión de Python:** en Streamlit Community Cloud debe seleccionarse **Python 3.12** en *Advanced settings*. Con Python 3.14 el despliegue falla por incompatibilidad de `langchain`/`pydantic`.
 
 ### Configuración del secreto en Streamlit Cloud
 
